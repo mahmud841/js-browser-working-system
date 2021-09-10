@@ -1,12 +1,11 @@
-console.log("first");
+ console.log("first");
 /* setInterval(() => {
     console.log('thid');
-}, 3000); */
+}, 3000);  */
 
 let seconds = 0;
-
 const timeId = setInterval(() => {
-    seconds++;
+    // seconds++;
     // console.log(seconds);
     // console.log(seconds++);
     console.log(++seconds);
@@ -14,5 +13,11 @@ const timeId = setInterval(() => {
         clearInterval(timeId);
     }
 }, 1000);
+console.log('second'); 
 
-console.log('second');
+
+/* console.log('first');
+setInterval(() => {
+    console.log("final");
+}, 2000);
+console.log('last'); */

@@ -1,11 +1,12 @@
 console.log(1133);
 console.log(1133);
 // setTimeout(() => console.log("bhfddskfj"),5000);
+// setTimeout(() => console.log('Khan'),3000);
 fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
   .then(json => console.log(json));
 console.log(3133);
-console.log(4133);
+// console.log(4133); 
 /* for (let i =0; i<1000; i++) {
     console.log(i);
 } */
